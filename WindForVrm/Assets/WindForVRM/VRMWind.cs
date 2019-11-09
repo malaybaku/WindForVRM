@@ -190,7 +190,7 @@ namespace WindForVRM
             _windGenerateCount = Random.Range(windIntervalRange.x, windIntervalRange.y) * timeFactor;
             
             var windOrientation = (
-                windBaseOrientation + 
+                windBaseOrientation.normalized + 
                 new Vector3(
                    Random.Range(-windOrientationRandomPower, windOrientationRandomPower),
                    Random.Range(-windOrientationRandomPower, windOrientationRandomPower),
