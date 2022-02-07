@@ -1,3 +1,5 @@
+Copyright 2019-2022 @baku_dreameater
+
 # WindForVRM
 
 * 獏星(ばくすたー)
